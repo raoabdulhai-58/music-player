@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="Css/style.css">
+  <title>Music player</title>
+</head>
+<body>
+    <div class="container">
+      <div class="music_container">
+         <h1 id="title">Song1</h1>
+          <div class="image_container">
+            <img src="images/image1.gif" alt="image1">
+          </div>
+          <audio src="music/song1.mp3"></audio>
+          <div class="">
+            <!-- <button id="loop_btn">LOOP</button>
+            <button id="shuffle_btn">shuffle</button> -->
+            <!-- <i class="fas fa-random" id="shuffle_btn" title="shuffle"></i>
+            <i class="fas fa-undo" id="loop_btn" title="Loop"></i> -->
+
+          </div>
+           
+           <!-- progress bar -->
+          <div class="progressbar" id="progressbar">
+           <div class="progress_meter">
+             <div id="current_time">0:00</div>
+             <div id="duration">2:14</div>
+           </div>
+           <div class="progress_div" id="progress_div">
+             <div class="progress" id="progress"></div>
+           </div>
+          </div>
+
+          <!-- controls  -->
+          <div class="music_control">
+            <i class="fas fa-random" id="shuffle_btn" title="shuffle"></i>
+            <i class="fas fa-backward" id="prev" title="Previous"></i>
+            <i class="fas fa-play play_btn" id="play" title="Play"></i>
+            <i class="fas fa-forward" id="next" title="Next"></i>
+            <i class="fas fa-undo" id="loop_btn" title="Loop"></i>
+          </div>
+
+
+      </div>
+    </div>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
